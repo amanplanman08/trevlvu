@@ -1,6 +1,6 @@
 # WordPress Core (we don't version control this)
-wp-admin/
-wp-includes/
+# wp-admin/
+# wp-includes/
 *.php
 !wp-config.php
 index.php
@@ -20,7 +20,9 @@ wp-signup.php
 wp-trackback.php
 xmlrpc.php
 
+
 # Uploads & Media (these belong on the server, not in Git)
+# wp-content/
 wp-content/plugins/all-in-one-wp-migration/
 wp-content/plugins/elementor/
 wp-content/plugins/surecart/
@@ -28,8 +30,12 @@ wp-content/plugins/surerank/
 wp-content/uploads/
 wp-content/blogs.dir/
 wp-content/upgrade/
-wp-content/backup/
-
+assets/
+elementor/
+install-resource/
+languages/
+woocommerce/
+template-parts/
 # Caches & Temp files
 wp-content/cache/
 wp-content/et-cache/
@@ -51,4 +57,3 @@ Thumbs.db
 .env
 .env.*
 !.env.example
-EOF
