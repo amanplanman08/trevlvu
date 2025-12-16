@@ -24,7 +24,6 @@ xmlrpc.php
 # Uploads & Media (these belong on the server, not in Git)
 # wp-content/
 wp-content/plugins/all-in-one-wp-migration/
-wp-content/plugins/elementor/
 wp-content/plugins/surecart/
 wp-content/plugins/surerank/
 wp-content/uploads/
